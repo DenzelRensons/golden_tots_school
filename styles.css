@@ -12,7 +12,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #cfa723;
+  background-color: #964B00;
   color: white;
 }
 
@@ -197,7 +197,7 @@ nav ul li a {
 
 .mission, .vision{
   flex: 1;
-  background-color: #be9114;
+  background-color: #D89F55;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -210,28 +210,10 @@ nav ul li a {
 }
 
 .mission p, .vision p {
-  font-size: 16px;
+  font-size: 18px;
   color: #555;
 }
 
-/* Our History */
-.history {
-  background-color: #be9114;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin-bottom: 50px;
-}
-
-.history h3 {
-  font-size: 24px;
-  margin-bottom: 15px;
-}
-
-.history p {
-  font-size: 16px;
-  color: #555;
-}
 
 /* Our Team */
 .our-team {
@@ -251,7 +233,7 @@ nav ul li a {
 }
 
 .team-member {
-  background-color: #be9114;
+  background-color: #D89F55;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -293,7 +275,7 @@ nav ul li a {
 }
 
 .facility-item {
-  background-color: #be9114;
+  background-color: #D89F55;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -331,100 +313,6 @@ nav ul li a {
 
 
 
-/* Programs Offered Section */
-.programs {
-  padding: 50px 20px;
-  background-color: #f9f9f9;
-  text-align: center;
-}
-
-.programs h2 {
-  font-size: 36px;
-  margin-bottom: 40px;
-}
-
-.programs-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.program-item {
-  background-color: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
-.program-item i {
-  font-size: 48px;
-  color: #be9114;
-  margin-bottom: 15px;
-}
-
-.program-item h3 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.program-item p {
-  font-size: 16px;
-  color: #555;
-}
-
-
-
-
-/* Why Choose Us Section */
-.why-choose-us {
-  padding: 50px 20px;
-  text-align: center;
-  background-color: #fff;
-}
-
-.why-choose-us h2 {
-  font-size: 36px;
-  margin-bottom: 40px;
-}
-
-.features-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.feature-item {
-  background-color: #f9f9f9;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
-.feature-item i {
-  font-size: 48px;
-  color: #be9114;
-  margin-bottom: 15px;
-}
-
-.feature-item h3 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.feature-item p {
-  font-size: 16px;
-  color: #555;
-}
-
-
-
-
 /* Testimonials Section */
 .testimonial-item img {
   width: 100px;
@@ -450,50 +338,6 @@ nav ul li a {
 .testimonial-item h4 {
   font-size: 20px;
   color: #be9114;
-}
-
-/* Testimonials Section Animation *
-.testimonial-item {
-  opacity: 0;
-  transform: translateX(-100%);
-  animation: slideInLeft 1s ease forwards;
-}
-
-.testimonial-item:nth-child(even) {
-  transform: translateX(100%);
-  animation: slideInRight 1s ease forwards;
-}
-
-@keyframes slideInLeft {
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-@keyframes slideInRight {
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-
-
-/* Testimonial Scroll Animation *
-.testimonial-item {
-  opacity: 0;
-  transform: translateX(-100%);
-  transition: opacity 1s ease, transform 1s ease;
-}
-
-.testimonial-item:nth-child(even) {
-  transform: translateX(100%);
-}
-
-.testimonial-item.animate {
-  opacity: 1;
-  transform: translateX(0);
 }
 
 
@@ -540,7 +384,7 @@ nav ul li a {
 /* Programs Offered Section */
 .programs {
   padding: 50px 20px;
-  background-color: #f9f9f9;
+  background-color: #D89F55;
   text-align: center;
 }
 
@@ -606,7 +450,7 @@ nav ul li a {
 }
 
 .feature-item {
-  background-color: #be9114;
+  background-color: #D89F55;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -649,7 +493,7 @@ nav ul li a {
 }
 
 .testimonial-item {
-  background-color: #be9114;
+  background-color: #D89F55;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -670,7 +514,7 @@ nav ul li a {
 .cta {
   padding: 50px 20px;
   text-align: center;
-  background-color: #be9114;
+  background-color: #D89F55;
   color: white;
 }
 
@@ -845,7 +689,7 @@ body {
 }
 
 header {
-  background-color: #be9114;
+  background-color: #D89F55;
   color: white;
   padding: 10px 20px;
   display: flex;
@@ -953,7 +797,7 @@ header .nav-menu ul li a {
 }
 
 .admissions-content table th {
-  background-color: #be9114;
+  background-color: #D89F55;
   color: white;
 }
 
@@ -961,7 +805,7 @@ header .nav-menu ul li a {
 .admissions-content .cta-button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #be9114;
+  background-color: #D89F55;
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -993,7 +837,7 @@ footer {
     display: none;
     flex-direction: column;
     width: 150px; /* Set a fixed width for the menu */
-    background-color: #be9114;
+    background-color: #D89F55;
     position: fixed;
     top: 0;
     right: -250px; /* Start off-screen to the right */
@@ -1033,7 +877,7 @@ footer {
     border-radius: 5px;
   }
 
-  /* Close Icon (X) */
+  /* Close Icon (X) *
   .nav-menu .close-icon {
     position: absolute;
     top: 15px;
@@ -1042,6 +886,7 @@ footer {
     cursor: pointer;
     color: white;
   }
+    */
 
   .admissions-content h2 {
     font-size: 24px;
@@ -1173,7 +1018,7 @@ footer {
 }
 
 .social-icons a:hover {
-  color: #b19b3a;
+  color: #D89F55;
 }
 
 .contact-right {
@@ -1286,7 +1131,7 @@ footer {
   footer {
     text-align: center;
     padding: 20px;
-    background-color: #820000;
+    background-color: #D89F55;
     color: white;
   }
 
@@ -1303,7 +1148,7 @@ footer {
     right: -100%;
     height: 100vh;
     width: 150px;
-    background-color: #820000fb;
+    background-color: #D89F55;
     transition: right 0.3s ease;
   }
 
