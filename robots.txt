@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://goldentotsschool.co.ke/sitemap.xml
