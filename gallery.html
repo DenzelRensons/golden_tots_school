@@ -186,6 +186,40 @@
     <p>&copy; 2025 Golden Tots School. All rights reserved.</p>
   </footer>
 
+   <script>
+      // Gallery filtering
+      document.querySelectorAll(".filter-btn").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          // Remove active class from all buttons
+          document
+            .querySelectorAll(".filter-btn")
+            .forEach((b) => b.classList.remove("active"));
+          // Add active class to clicked button
+          btn.classList.add("active");
+
+          const filter = btn.dataset.filter;
+
+          // Show all items if 'all' is selected
+          if (filter === "all") {
+            document.querySelectorAll(".gallery-item").forEach((item) => {
+              item.style.display = "block";
+            });
+          } else {
+            // Hide all items
+            document.querySelectorAll(".gallery-item").forEach((item) => {
+              item.style.display = "none";
+            });
+            // Show only filtered items
+            document
+              .querySelectorAll(`.gallery-item.${filter}`)
+              .forEach((item) => {
+                item.style.display = "block";
+              });
+          }
+        });
+      });
+    </script>
+
   <script src="script.js"></script>
 </body>
 </html>
