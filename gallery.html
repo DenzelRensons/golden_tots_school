@@ -32,49 +32,154 @@
     </nav>
   </header>
 
-  <!-- Gallery Section -->
-  <section class="gallery">
-    <h2>Our Gallery</h2>
-    <div class="gallery-grid">
-      <div class="gallery-item">
-        <img src="images/gallery6.jpeg" alt="School Logo">
+ <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+      <div class="container">
+        <h2 class="section-title">
+          School <span class="green-text">Gallery</span>
+        </h2>
+
+        <!-- Gallery Filter -->
+        <div class="gallery-filter">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="ict">ICT</button>
+          <button class="filter-btn" data-filter="music">Music</button>
+          <button class="filter-btn" data-filter="scouts">Scouts</button>
+          <button class="filter-btn" data-filter="sports">Sports</button>
+          <button class="filter-btn" data-filter="events">Events</button>
+        </div>
+
+        <!-- Image Gallery -->
+        <div class="image-gallery">
+          <!-- ICT Department -->
+          <div class="gallery-item ict">
+            <img src="/images/coding.jpg" alt="Students learning computers" />
+            <div class="gallery-overlay">
+              <h3>ICT Class</h3>
+              <p>Students learning digital skills</p>
+            </div>
+          </div>
+
+          <div class="gallery-item ict">
+            <img src="/images/techonlogy.png" alt="Coding competition" />
+            <div class="gallery-overlay">
+              <h3>Coding Competition</h3>
+              <p>Annual inter-school tech challenge</p>
+            </div>
+          </div>
+
+          <!-- Music Department -->
+          <div class="gallery-item music">
+            <img src="/images/bans.jpg" alt="School choir" />
+            <div class="gallery-overlay">
+              <h3>School Choir</h3>
+              <p>Performing at national competitions</p>
+            </div>
+          </div>
+
+          <div class="gallery-item music">
+            <img src="/images/music.jpg" alt="Music class" />
+            <div class="gallery-overlay">
+              <h3>Music Lessons</h3>
+              <p>Learning traditional instruments</p>
+            </div>
+          </div>
+
+          <!-- Scouts -->
+          <div class="gallery-item scouts">
+            <img src="/images/scouts.jpg" alt="Scout parade" />
+            <div class="gallery-overlay">
+              <h3>Scout Parade</h3>
+              <p>Annual scout day celebrations</p>
+            </div>
+          </div>
+
+          <div class="gallery-item scouts">
+            <img src="/images/tree-planting.jpg" alt="Tree planting" />
+            <div class="gallery-overlay">
+              <h3>Environmental Day</h3>
+              <p>Scouts planting trees</p>
+            </div>
+          </div>
+
+          <!-- Video Gallery -->
+          <div class="video-gallery">
+            <h3 class="video-title">
+              Video <span class="green-text">Highlights</span>
+            </h3>
+
+            <div class="video-grid">
+              <div class="video-item">
+                <div class="video-wrapper">
+                  <iframe
+                    src="https://www.youtube.com/embed/w8jDgpuKJeE"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <h4>Annual Music Festival 2024</h4>
+              </div>
+              <div class="video-item">
+                <div class="video-wrapper">
+                  <iframe
+                    src="https://www.youtube.com/embed/_FOohQeD5LE"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <h4>Annual Music Festival 2024</h4>
+              </div>
+
+              <div class="video-item">
+                <div class="video-wrapper">
+                  <iframe
+                    src="https://www.youtube.com/embed/Y3O2GnuD06Y"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <h4>Brass band</h4>
+              </div>
+
+              <div class="video-item">
+                <div class="video-wrapper">
+                  <video controls poster="/images/ict presentation.mp4">
+                    <source
+                      src="/images/ict presentation.mp4"
+                      type="video/mp4"
+                    />
+                  </video>
+                </div>
+                <h4>ICT WEb development</h4>
+              </div>
+              <div class="video-item">
+                <div class="video-wrapper">
+                  <video controls poster="/images/ict presentation.mp4">
+                    <source
+                      src="/images/ict presentation.mp4"
+                      type="video/mp4"
+                    />
+                  </video>
+                </div>
+                <h4>ICT WEb development</h4>
+              </div>
+
+              <div class="video-item">
+                <div class="video-wrapper">
+                  <video controls poster="/images/ict presentation.mp4">
+                    <source
+                      src="/images/ict presentation.mp4"
+                      type="video/mp4"
+                    />
+                  </video>
+                </div>
+                <h4>ICT WEb development</h4>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="gallery-item">
-        <img src="images/gallery2.jpeg" alt="Student in Computer lab">
-      </div>
-      <div class="gallery-item">
-        <img src="images/gallery4.jpeg" alt="Domitory">
-      </div>
-      <div class="gallery-item">
-        <img src="images/gallery1.jpeg" alt="Students Learning">
-      </div>
-      <div class="gallery-item">
-        <img src="images/gallery5.jpeg" alt="School Event">
-      </div>
-      <div class="gallery-item">
-        <img src="images/school4.jpeg" alt="Students">
-      </div>
-      <div class="gallery-item">
-        <img src="images/gallery6.jpeg" alt="School Logo">
-      </div>
-      <div class="gallery-item">
-        <img src="images/gallery2.jpeg" alt="Student in Computer lab">
-      </div>
-      <div class="gallery-item">
-        <img src="images/gallery4.jpeg" alt="Domitory">
-      </div>
-      <div class="gallery-item">
-        <img src="images/gallery1.jpeg" alt="Students Learning">
-      </div>
-      <div class="gallery-item">
-        <img src="images/gallery5.jpeg" alt="School Event">
-      </div>
-      <div class="gallery-item">
-        <img src="images/school4.jpeg" alt="Students">
-      </div>
-    </div>
-    </div>
-  </section>
+    </section>
 
   <!-- Footer Section -->
   <footer>
